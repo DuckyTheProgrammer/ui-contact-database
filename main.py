@@ -5,14 +5,14 @@ conn = sqlite3.connect('base.db')
 c = conn.cursor()
 
 
-'''
+
 c.execute("""CREATE TABLE list(
 	first_name text,
 	last_name text,
 	email text,	
 	phn integer
 )""")
-'''
+
 
 
 
